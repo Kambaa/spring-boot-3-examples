@@ -1,0 +1,37 @@
+### /
+GET http://localhost:8080/
+
+### /getPeople
+GET http://localhost:8080/getPeople
+Accept: application/json
+
+### /getPerson/1
+GET http://localhost:8080/getPerson/1
+Accept: application/json
+
+### /getPersonByName/TESTSURNAME-2
+GET http://localhost:8080/getPersonByName/TESTSURNAME-2
+
+### /addPeople
+GET http://localhost:8080/addPeople
+
+### /addPerson
+POST http://localhost:8080/addPerson
+Content-Type: application/json
+
+{
+  "name": "Kambaa",
+  "surname": "Kambaa"
+}
+
+### /updatePerson/1
+PATCH http://localhost:8080/updatePerson/202
+Content-Type: application/json
+
+{
+  "name": "KambaaEdited",
+  "surname": "KambaaEdited"
+}
+
+### /deletePerson/1
+DELETE http://localhost:8080/deletePerson/1
