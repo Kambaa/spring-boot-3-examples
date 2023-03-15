@@ -29,3 +29,17 @@ Some basic functionality configurations to add to your _application.properties_:
 - https://springdoc.org/v2/#properties
 - https://www.baeldung.com/spring-rest-openapi-documentation (good for first impressions and general knowlegde, but did
   not work for me on spring boot 3)
+
+
+### TODOS
+[X] Add basic openapi-ui functionality
+[X] Add basic configurations (disable json, disable swagger-ui.html page)
+[ ] Add basic OpenAPI related annotations
+[ ] Add optional/required input example
+[ ] Add input consisting of Lists
+[ ] Add security related configurations:
+   - [ ] Endpoint needing username password info on its headers.
+   - [ ] Endpoint needing some header token(s)
+   - [ ] Endpoint needing Oauth 1/2
+   - [ ] Search, learn and write examples of other (if exists) endpoint security config on openapi-ui.
+[ ] Generate another example branch of this topic as 'advanced'. 
