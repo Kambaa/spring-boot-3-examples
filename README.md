@@ -8,8 +8,9 @@ expose a web page which you can test your endpoints and read its documentation.
 - [X] Add basic configurations (disable json, disable swagger-ui.html page)
 - [ ] Add basic OpenAPI related annotations
 - [ ] Add optional/required input example
-- [ ] Add enum input example.
+- [ ] Add enum input example
 - [ ] Add input consisting of Lists
+- [ ] Add Pageable example
 - [ ] Add security related configurations:
    - [ ] Endpoint needing username password info on its headers.
    - [ ] Endpoint needing some header token(s)
