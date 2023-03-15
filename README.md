@@ -1,9 +1,9 @@
-# Spring Boot Demo
+## Spring Boot Demo
 
 A basic spring boot application that has embedded H2 database and CRUD operations on it.
 
 
-#### Branch TODOS: 
+### Branch TODOS: 
 - [x] Add very basic example and some documentation on README.md
 - [ ] Add a service layer class and make restcontroller methods call service layer class methods. 
 
