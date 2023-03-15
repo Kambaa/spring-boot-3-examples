@@ -16,6 +16,7 @@ expose a web page which you can test your endpoints and read its documentation.
    - [ ] Endpoint needing some header token(s)
    - [ ] Endpoint needing Oauth 1/2
    - [ ] Search, learn and write examples of other (if exists) endpoint security config on openapi-ui.
+- [ ] Customize look and feel of swagger-ui (changing original static web files)
 - [ ] Generate another example branch of this topic as 'advanced', covering the  `Add input consisting of Lists` and `Add security related configurations` items.
 
 
