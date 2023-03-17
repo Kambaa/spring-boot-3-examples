@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Demo Spring Application.
  *
  * @author Kambaa
- *
  * @SpringBootApplication is a convenience annotation that adds all of the following:
  * @Configuration: Tags the class as a source of bean definitions for the application context.
  * @EnableAutoConfiguration: Tells Spring Boot to start adding beans based on classpath settings,
@@ -22,4 +21,6 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
+
+
 }
