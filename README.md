@@ -47,6 +47,7 @@ Some basic functionality configurations to add to your _application.properties_:
 - https://springdoc.org/v2/#getting-started
 - https://springdoc.org/v2/#properties
 - https://springdoc.org/v2/#faq
+- https://springdoc.org/v2/index.html#customizing-swagger-static-resources
 - https://www.baeldung.com/spring-rest-openapi-documentation (good for first impressions and general knowlegde, but did
   not work for me on spring boot 3)
 
