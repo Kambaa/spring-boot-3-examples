@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 
 @Configuration
 @ConditionalOnProperty("openapi-ui.customCssFile")
-public class Wasd extends SwaggerIndexPageTransformer {
+public class SwaggerUiPageTransformer extends SwaggerIndexPageTransformer {
 
     /**
      * Instantiates a new Swagger index transformer.
@@ -33,7 +33,7 @@ public class Wasd extends SwaggerIndexPageTransformer {
      * @param swaggerWelcomeCommon      the swagger welcome common
      * @param objectMapperProvider      the object mapper provider
      */
-    public Wasd(SwaggerUiConfigProperties swaggerUiConfig, SwaggerUiOAuthProperties swaggerUiOAuthProperties, SwaggerUiConfigParameters swaggerUiConfigParameters, SwaggerWelcomeCommon swaggerWelcomeCommon, ObjectMapperProvider objectMapperProvider) {
+    public SwaggerUiPageTransformer(SwaggerUiConfigProperties swaggerUiConfig, SwaggerUiOAuthProperties swaggerUiOAuthProperties, SwaggerUiConfigParameters swaggerUiConfigParameters, SwaggerWelcomeCommon swaggerWelcomeCommon, ObjectMapperProvider objectMapperProvider) {
         super(swaggerUiConfig, swaggerUiOAuthProperties, swaggerUiConfigParameters, swaggerWelcomeCommon, objectMapperProvider);
     }
 
@@ -74,7 +74,7 @@ public class Wasd extends SwaggerIndexPageTransformer {
             SwaggerUiOAuthProperties b,
             SwaggerUiConfigParameters c,
             SwaggerWelcomeCommon d, ObjectMapperProvider e) {
-        return new Wasd(a, b, c, d, e);
+        return new SwaggerUiPageTransformer(a, b, c, d, e);
     }
 
 
