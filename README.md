@@ -6,8 +6,8 @@ expose a web page which you can test your endpoints and read its documentation.
 ### TODOS
 - [X] Add basic openapi-ui functionality
 - [X] Add basic configurations (disable json, disable swagger-ui.html page)
-- [ ] Add basic OpenAPI related annotations
-- [ ] Add optional/required input example
+- [x] Add basic OpenAPI related annotations
+- [x] Add optional/required input example
 - [ ] Add enum input example
 - [ ] Add input consisting of Lists
 - [ ] Add Pageable example
