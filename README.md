@@ -10,14 +10,15 @@ expose a web page which you can test your endpoints and read its documentation.
 - [x] Add optional/required input example
 - [x] Add enum input example
 - [x] Add input consisting of Lists
-- [ ] Add Pageable example
-- [ ] Add security related configurations:
-   - [ ] Endpoint needing username password info on its headers.
-   - [ ] Endpoint needing some header token(s)
-   - [ ] Endpoint needing Oauth 1/2
-   - [ ] Search, learn and write examples of other (if exists) endpoint security config on openapi-ui.
 - [x] Customize look and feel of swagger-ui (changing original static web files)
-- [ ] Generate another example branch of this topic as 'advanced', covering the  `Add input consisting of Lists` and `Add security related configurations` items.
+
+- [ ] Generate another example branch of this topic as 'advanced', covering:
+   - [ ] Add Pageable example
+   - [ ] Add security related configurations:
+      - [ ] Endpoint needing username password info on its headers.
+      - [ ] Endpoint needing some header token(s)
+      - [ ] Endpoint needing Oauth 1/2
+      - [ ] Search, learn and write examples of other (if exists) endpoint security config on openapi-ui.
 
 
 
