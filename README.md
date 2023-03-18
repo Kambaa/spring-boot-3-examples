@@ -9,7 +9,7 @@ expose a web page which you can test your endpoints and read its documentation.
 - [x] Add basic OpenAPI related annotations
 - [x] Add optional/required input example
 - [x] Add enum input example
-- [ ] Add input consisting of Lists
+- [x] Add input consisting of Lists
 - [ ] Add Pageable example
 - [ ] Add security related configurations:
    - [ ] Endpoint needing username password info on its headers.

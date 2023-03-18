@@ -138,27 +138,9 @@ public class DemoController {
     )
     public Greeting getListOfGreets(
             @RequestBody
-            @Parameter(required = true, description = "Enter list of ExampleRequest objects")
+            @Parameter(required = true, description = "list of ExampleRequest")
             List<ExampleRequest> requests
     ) {
         return demoService.greet(requests.size(), "hello to " + requests.size() + " people.");
     }
-
-    @Operation(summary = "`getListOfGreets2` Summary",
-            description = "`getListOfGreets2` Description returns a greeting from given greeting RequestBody",
-            operationId = "getListOfGreets2OperationId"
-    )
-    @PostMapping(
-            value = "/getListOfGreets2",
-            produces = {"application/json"},
-            consumes = {"application/json"}
-    )
-    public Greeting getListOfGreets2(
-            @RequestBody
-            @Parameter(required = true, description = "Enter list of ExampleRequest2 object")
-            ExampleRequest2 request
-    ) {
-        return demoService.greet(request.getData().size(), "hello to " + request.getData().size() + " people.");
-    }
-
 }
