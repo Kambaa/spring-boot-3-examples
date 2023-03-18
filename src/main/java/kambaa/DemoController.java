@@ -8,6 +8,8 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * A demo REST controller.
  *
@@ -123,6 +125,40 @@ public class DemoController {
             ExampleRequest greeting) {
         System.out.println("selected demoEnum is: " + greeting.getDemoEnum().name());
         return demoService.greet(greeting.getId(), greeting.getContent());
+    }
+
+    @Operation(summary = "`getListOfGreets` Summary",
+            description = "`getListOfGreets` Description returns a greeting from given greeting RequestBody",
+            operationId = "getListOfGreetsOperationId"
+    )
+    @PostMapping(
+            value = "/getListOfGreets",
+            produces = {"application/json"},
+            consumes = {"application/json"}
+    )
+    public Greeting getListOfGreets(
+            @RequestBody
+            @Parameter(required = true, description = "Enter list of ExampleRequest objects")
+            List<ExampleRequest> requests
+    ) {
+        return demoService.greet(requests.size(), "hello to " + requests.size() + " people.");
+    }
+
+    @Operation(summary = "`getListOfGreets2` Summary",
+            description = "`getListOfGreets2` Description returns a greeting from given greeting RequestBody",
+            operationId = "getListOfGreets2OperationId"
+    )
+    @PostMapping(
+            value = "/getListOfGreets2",
+            produces = {"application/json"},
+            consumes = {"application/json"}
+    )
+    public Greeting getListOfGreets2(
+            @RequestBody
+            @Parameter(required = true, description = "Enter list of ExampleRequest2 object")
+            ExampleRequest2 request
+    ) {
+        return demoService.greet(request.getData().size(), "hello to " + request.getData().size() + " people.");
     }
 
 }
