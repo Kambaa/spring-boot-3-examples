@@ -9,3 +9,4 @@ added. Here's the current list:
 | master                 | default branch that is a template for the other branches.                                |
 | basic-h2-crud-example  | A basic spring boot application that has embedded H2 database and CRUD operations on it. |
 | openapi-ui-basic-setup | Quick setup of openapi-ui (usually known as swagger-ui) on spring boot 3.                |
+| hibernate-2nd-level-cache | example of using a 2nd level cache for hibernate with hazelcast on spring boot 3.     |
