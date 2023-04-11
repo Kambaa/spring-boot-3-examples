@@ -1,6 +1,6 @@
 ## Spring Boot H2 Database With Hibernate 2nd Level Cache Demo
 
-A basic spring boot application that has embedded H2 database and hibernate 2nd level cache set up on it.
+A basic spring boot application that has embedded H2 database and hibernate 2nd level cache working with hazelcast set up on it.
 
 ### Branch TODOS:
 
