@@ -1,0 +1,15 @@
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-1','TESTSURNAME-1');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-2','TESTSURNAME-2');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-3','TESTSURNAME-3');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-4','TESTSURNAME-4');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-5','TESTSURNAME-5');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-6','TESTSURNAME-6');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-7','TESTSURNAME-7');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-8','TESTSURNAME-8');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-9','TESTSURNAME-9');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-10','TESTSURNAME-10');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-11','TESTSURNAME-11');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-12','TESTSURNAME-12');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-13','TESTSURNAME-13');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-14','TESTSURNAME-14');
+INSERT INTO DEMO (id, name,surname) VALUES ((select next value for demo_seq), 'TESTNAME-15','TESTSURNAME-15');

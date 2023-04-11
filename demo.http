@@ -1,0 +1,5 @@
+GET http://localhost:8080/getPeople
+
+###
+
+GET http://localhost:8080/getPerson/2
