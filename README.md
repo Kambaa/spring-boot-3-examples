@@ -39,4 +39,10 @@ A basic spring boot application that has embedded H2 database and hibernate 2nd 
 
 ### Links to read:
 
-- TBD
+- https://github.com/hazelcast-guides/springboot-hibernate
+- https://docs.hazelcast.com/tutorials/springboot-hibernate
+- https://github.com/hazelcast/hazelcast-hibernate#spring-boot-configuration
+- https://www.baeldung.com/hibernate-second-level-cache
+- https://docs.oracle.com/javaee/7/tutorial/persistence-cache001.htm
+- https://stackoverflow.com/questions/2351004/how-to-know-log-whether-hibernate-2nd-level-cache-was-used-or-not-for-a-query
+- https://stackoverflow.com/questions/3156133/hibernate-second-level-cache-print-result
