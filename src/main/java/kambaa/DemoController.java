@@ -16,9 +16,11 @@ import java.util.concurrent.atomic.AtomicLong;
 public class DemoController {
 
     DemoRepository demoRepository;
+    ManuelRepository manuelRepository;
 
-    public DemoController(DemoRepository demoRepository) {
+    public DemoController(DemoRepository demoRepository, ManuelRepository manuelRepository) {
         this.demoRepository = demoRepository;
+        this.manuelRepository = manuelRepository;
     }
 
     private static final String template = "Hello, %s!";
@@ -45,7 +47,10 @@ public class DemoController {
      */
     @GetMapping("/getPeople")
     public Iterable<DemoEntity> getPeople() {
-        return demoRepository.findAll();
+//        return demoRepository.findAll();
+//        return demoRepository.getCustomDemoEntities();
+        return manuelRepository.getSomeDemoEntityList();
+
     }
 
     /**
@@ -56,7 +61,9 @@ public class DemoController {
      */
     @GetMapping("/getPerson/{id}")
     public DemoEntity getPerson(@PathVariable Long id) {
-        return demoRepository.findById(id).orElse(null);
+//        return demoRepository.findById(id).orElse(null);
+        return manuelRepository.getSomeDemoEntity(id);
     }
+
 
 }

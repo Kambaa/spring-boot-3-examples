@@ -10,8 +10,11 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 public class DemoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    private Long id;
+
+    @Column
     private String name;
+    @Column
     private String surname;
 
     public long getId() {
@@ -38,4 +41,12 @@ public class DemoEntity {
         this.surname = surname;
     }
 
+    public DemoEntity(long id, String name, String surname) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+    }
+
+    public DemoEntity() {
+    }
 }
