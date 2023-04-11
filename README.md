@@ -18,8 +18,7 @@ A basic spring boot application that has embedded H2 database and hibernate 2nd 
 - Call http://localhost:8080/person/1 , http://localhost:8080/person/2 for individual row data.
 - Check the comments to understand about the @SpringBootApplication annotation.
 - Check DemoEntity.java to see an Entity.
-- Check DemoRepository.java to see a spring JPA repository with an annotation that auto generates some REST endpoints
-  to see the data.
+- Check DemoRepository.java to see a spring JPA repository 
 - Check DemoController.java for the custom endpoint declarations.
 - Check application.properties file for the h2 database jpa and 2nd level cache setup details.
 - Check the logs for the sql queries that ran, and check the hibernate caching logs, and check the
