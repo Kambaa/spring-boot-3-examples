@@ -1,13 +1,10 @@
-## Spring Boot Demo
+## Spring Boot H2 Database With Hibernate 2nd Level Cache Demo
 
-A basic spring boot application that has embedded H2 database and CRUD operations on it.
-
+A basic spring boot application that has embedded H2 database and hibernate 2nd level cache set up on it.
 
 ### Branch TODOS:
+
 - TBD
-
-
-
 
 ### Follow these steps to see in action:
 
@@ -25,11 +22,12 @@ A basic spring boot application that has embedded H2 database and CRUD operation
   to see the data.
 - Check DemoController.java for the custom endpoint declarations.
 - Check application.properties file for the h2 database jpa and 2nd level cache setup details.
-- Check the logs for the sql queries that ran, and check the hibernate caching logs, and check the SecondLevelCacheVisualizer logs that logs the data schedually.
+- Check the logs for the sql queries that ran, and check the hibernate caching logs, and check the
+  SecondLevelCacheVisualizer logs that logs the data schedually.
 
 ## Reading the code:
 
-- TBD 
+- TBD
 
 ## F.A.Q
 
@@ -38,7 +36,6 @@ A basic spring boot application that has embedded H2 database and CRUD operation
 ### Example Tutorials to watch:
 
 - TBD
-
 
 ### Links to read:
 
