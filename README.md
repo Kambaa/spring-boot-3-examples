@@ -46,3 +46,4 @@ A basic spring boot application that has embedded H2 database and hibernate 2nd 
 - https://stackoverflow.com/questions/2351004/how-to-know-log-whether-hibernate-2nd-level-cache-was-used-or-not-for-a-query
 - https://stackoverflow.com/questions/3156133/hibernate-second-level-cache-print-result
 - https://medium.com/@premrajsahu/spring-boot-caching-with-hazelcast-and-spring-data-jpa-a190fd4f9c39
+- https://www.quora.com/How-do-I-enable-a-Level-2-cache-in-a-Spring-Boot-application/answer/Jeet-Singh-Parmar-1?share=be339b8f&srid=xLIQ
