@@ -47,9 +47,9 @@ public class DemoController {
      */
     @GetMapping("/getPeople")
     public Iterable<DemoEntity> getPeople() {
-//        return demoRepository.findAll();
-//        return demoRepository.getCustomDemoEntities();
-        return manuelRepository.getSomeDemoEntityList();
+//        return demoRepository.findAll(); // default spring jpa method
+//        return demoRepository.getCustomDemoEntities(); // some custom @Query annotated repo method
+        return manuelRepository.getSomeDemoEntityList(); // a custom written repository
 
     }
 
