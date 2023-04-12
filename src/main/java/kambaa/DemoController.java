@@ -47,9 +47,9 @@ public class DemoController {
      */
     @GetMapping("/getPeople")
     public Iterable<DemoEntity> getPeople() {
-//        return demoRepository.findAll();
+        return demoRepository.findAll();
 //        return demoRepository.getCustomDemoEntities();
-        return manuelRepository.getSomeDemoEntityList();
+//        return manuelRepository.getSomeDemoEntityList();
 
     }
 
@@ -61,8 +61,9 @@ public class DemoController {
      */
     @GetMapping("/getPerson/{id}")
     public DemoEntity getPerson(@PathVariable Long id) {
-//        return demoRepository.findById(id).orElse(null);
-        return manuelRepository.getSomeDemoEntity(id);
+        return demoRepository.findById(id).orElse(null);
+
+//        return manuelRepository.getSomeDemoEntity(id);
     }
 
 
