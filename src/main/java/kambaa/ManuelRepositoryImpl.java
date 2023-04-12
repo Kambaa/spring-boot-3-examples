@@ -20,8 +20,7 @@ public class ManuelRepositoryImpl implements ManuelRepository {
                         ORDER BY d.id
                         """, DemoEntity.class)
 //                              .unwrap(org.hibernate.query.Query.class)
-//                .setHint("org.hibernate.cacheable", true)
-//                .setResultTransformer(new PostDTOResultTransformer())
+                .setHint("org.hibernate.cacheable", true)
                 .getResultList();
     }
 
@@ -34,7 +33,7 @@ public class ManuelRepositoryImpl implements ManuelRepository {
                         FROM DEMO d
                         Where d.id=:id
                         """, DemoEntity.class)
-//                .setHint("org.hibernate.cacheable", true)
+                .setHint("org.hibernate.cacheable", true)
                 .setParameter("id", id)
                 .getSingleResult();
     }
