@@ -4,10 +4,12 @@ import jakarta.persistence.*;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import java.util.Objects;
+
 @Entity
 @Table(name = "DEMO")
 @Cacheable
-@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
 public class DemoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -49,5 +51,18 @@ public class DemoEntity {
     }
 
     public DemoEntity() {
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        DemoEntity that = (DemoEntity) o;
+        return id.equals(that.id) && name.equals(that.name) && surname.equals(that.surname);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, surname);
     }
 }

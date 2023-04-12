@@ -7,7 +7,7 @@
     <cluster-name>dev</cluster-name>
 
     <!-- Entity-specific cache configuration    -->
-    <map name="com.hazelcast.hibernate.springhibernate2lc.persistence.Book">
+    <map name="kambaa.DemoEntity">
         <time-to-live-seconds>30</time-to-live-seconds>
     </map>
 </hazelcast>
