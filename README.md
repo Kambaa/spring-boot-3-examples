@@ -52,7 +52,9 @@ A basic spring boot application that has embedded H2 database and hibernate 2nd 
 - https://github.com/pavankjadda/Redis-Hibernate2ndLevelCache-SpringBoot
 - https://stackoverflow.com/q/58271542/1020512
 - https://stackoverflow.com/questions/31585698/spring-boot-jpa2-hibernate-enable-second-level-cache
+- Wrote 3 times, because after reading and applying it, first prototype started working :)
 - https://stackoverflow.com/q/59354578/1020512
+- https://stackoverflow.com/a/49848746/1020512
 - https://stackoverflow.com/a/49848746/1020512
 
 
