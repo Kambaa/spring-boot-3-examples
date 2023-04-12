@@ -47,8 +47,8 @@ public class DemoController {
      */
     @GetMapping("/getPeople")
     public Iterable<DemoEntity> getPeople() {
-        return demoRepository.findAll();
-//        return demoRepository.getCustomDemoEntities();
+//        return demoRepository.findAll();
+        return demoRepository.getCustomDemoEntities();
 //        return manuelRepository.getSomeDemoEntityList();
 
     }

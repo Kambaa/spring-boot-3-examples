@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "DEMO")
-@Cacheable
+@Cacheable(true)
 @Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
 public class DemoEntity {
     @Id
