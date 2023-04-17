@@ -59,5 +59,6 @@ A basic spring boot application that has embedded H2 database and hibernate 2nd 
 - https://stackoverflow.com/questions/14934948/hibernate-second-level-query-caching-issue-with-same-where-clause
 - https://github.com/ajavageek/query-cache/blob/master/src/main/kotlin/ch/frankel/blog/querycache/Application.kt
 - https://web.archive.org/web/20190719063218/https://www.javalobby.org/java/forums/t48846.html
+- https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#caching-config
 
 
